@@ -29,7 +29,7 @@ public class List01 {
 	}
 	public boolean isPalindrome(int []v) {
 		int n =v.length;
-		//int x = 0;
+		
 		boolean y = false;
 		for (int i = 0; i<v.length; i++ ) {
 			n--;
@@ -47,11 +47,7 @@ public class List01 {
 		}else {
 			return true;
 		}
-		/*if(x>0) {
-			return false;
-		} else {
-			return true;
-		}*/
+		
 	}
 	public double calculateCableBridge(float bridgeLength, int numSteelCables) {
 		float halfBridgeLength = bridgeLength / 2;
